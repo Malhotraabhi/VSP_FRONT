@@ -24,14 +24,6 @@ import Home from './pages/Home';
 function App() {
   return (
     <div className="App">
-      {/* <Navbar/> */}
-      {/* <VideoItem/> */}
-      {/* <VideoPlay/> */}
-      {/* <Myvideos/> */}
-      {/* <UploadVideo/> */}
-      
-      {/* <LoginPage/> */}
-      {/* <RegisterPage/> */}
       <Provider store={store}>
         {/* <Home/> */}
       <RouteConfig/>
