@@ -1,0 +1,140 @@
+/* RegisterPage.css */
+
+.register-page {
+  display: flex;
+  height: 100vh;
+}
+
+.left-box {
+  background-image: url('../Assets/tickets.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:top;
+  width: 60%;
+  font-size: 30px;
+  position: relative;
+  box-shadow: 0px 10px 16px #2f1d1d00;
+}
+
+.left-box .tuner-box {
+  position: absolute;
+  top: 170px;
+  left: 70px;
+}
+.left-box .tuner-box h1{
+  margin: 0px;
+  font-size: 80px;
+  color: #C4B4F8;
+}
+
+.left-box .tuner-box p{
+  margin: 0px;
+  font-size: 36px;
+  color: #FFFF;
+  width: 70%;
+  text-align: left;
+}
+
+.left-box a{
+  position: absolute;
+  bottom: 100px;
+  left: 80px;
+  font-size: 25px;
+}
+
+.right-box {
+  width: 50%;
+  background-color: #0F121FF5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#ri {
+  font-size: 40px;
+  margin: 0px;
+  color: white;
+}
+
+#rig {
+  font-size: 17px;
+  color: white;
+}
+
+#an {
+  color: white;
+  font-size: 27px;
+
+}
+
+input {
+  width: 60%;
+  padding: 6px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #0F121FF5;
+  border-bottom: 1px solid #989898;
+  outline: none;
+  color: #FFFF;
+  height: 40px;
+  font-size: 17px;
+}
+
+
+/* .circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #FFFFFF71;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+} */
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #FFFFFF71;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+
+  /* Adding white border with box-shadow */
+  border: 2px solid transparent; /* Transparent border to maintain the circle shape */
+  box-shadow: 0 0 0 2px white; /* Creating a white border outside the circle */
+}
+
+.circle input{
+  display: none;
+}
+.circle+#file-name{
+  color: white;
+}
+.right-box #error-box{
+  width: 500px;
+  height: 30px;
+  color: red;
+  background-color: rgb(237, 151, 151);
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+button{
+  width: 190px;
+  height: 49px;
+  color: #FFFF;
+  background-color: #C4B4F8;
+  border-radius: 27px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.plus {
+  font-size: 24px;
+}

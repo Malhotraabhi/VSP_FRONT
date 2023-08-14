@@ -1,0 +1,72 @@
+/* movie.css */
+
+.movie {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+    /* overflow: hidden; */
+    
+  }
+
+  .banner-container{
+    width: 100%;
+    height: 100%;
+  }
+
+  .banner-container img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .movie .info{
+    position: absolute;
+    bottom: 100px;
+    left: 70px;
+    color: aliceblue;
+    width: 30%;
+  }
+
+  .movie .info h3{
+    font-size: 40px;
+    margin: 0px;
+    text-align: left;
+  }
+
+  .movie .info .movie-info{
+    margin-top: 20px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .movie .info .movie-info span{
+    font-size: 14px;
+
+  }
+  .movie .info .publisher-info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+   
+  }
+  .movie .info .publisher-info h3{
+    font-size: 14px;
+    margin: 0px;
+    font-weight: normal
+  }
+
+  .movie .info .publisher-info #image-container{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+  .movie .info .publisher-info #image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  

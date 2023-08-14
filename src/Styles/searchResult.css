@@ -1,0 +1,12 @@
+#queried-videos-container{
+    width: 100%;
+    background-color: #0F121FF5;
+    min-height:100vh;
+}
+
+#queried-videos-container #error{
+    background-color: inherit;
+    margin: 20px auto;
+    color: aliceblue;
+    font-size: 18px;
+}

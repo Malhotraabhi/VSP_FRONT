@@ -1,0 +1,141 @@
+section {
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    color: aliceblue;
+}
+
+section #left-side {
+    width: 50%;
+   
+    padding: 0px 20px;
+    padding-top: 20px;
+}
+
+section #left-side .top {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 45px;
+}
+
+section #left-side .bottom {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+
+section #left-side .top select {
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+section #right-side {
+   border-left: 1px solid #707070;
+    width: 50%
+}
+
+section #right-side #banner {
+    height: 230px;
+    width: 100%;
+}
+
+section #right-side #banner img {
+    height: 100%;
+    width: 100%;
+}
+
+section #right-side .details {
+    padding: 25px;
+}
+
+section #right-side .details .first-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    justify-content: space-between;
+    border-bottom: 1px solid #707070;
+    padding-bottom: 12px;
+}
+
+section #right-side .details .first-row h3 {
+    font-size: 29px;
+    color: aliceblue;
+    width: 50%;
+    text-align: left;
+    margin: 0px;
+}
+
+section #right-side .details .first-row #movie-details {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+section #right-side .details .first-row #movie-details span {
+    font-size: 14px;
+}
+
+section #right-side .details .second-row {
+    border-bottom: 1px solid #707070;
+}
+
+section #right-side .details .third-row {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #707070;
+}
+
+section #right-side .details .third-row .category {
+    margin-right: 60px;
+}
+
+section #right-side .details .third-row .visibility h3 {
+    font-size: 12px;
+}
+section #right-side .details .third-row .visibility select {
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+section #right-side .details .third-row .category select {
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+section #right-side .details .third-row .category h3 {
+    font-size: 12px;
+}
+
+section #right-side .details .second-row .text-box p {
+    font-size: 14px;
+}
+
+section #right-side .details .second-row h3 {
+    font-size: 14px;
+}
+
+section #right-side .details .fourth-row {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section #right-side .details .fourth-row #delete {
+    width: 150px;
+    height: 50px;
+    border-radius: 28px;
+    background-color: #F43D3D;
+    cursor: pointer;
+}
+
+section #right-side .details .fourth-row #save {
+    border-radius: 28px;
+    width: 150px;
+    height: 50px;
+    background-color: #C4B4F8;
+    cursor: pointer;
+}

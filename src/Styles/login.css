@@ -1,0 +1,125 @@
+.login-page {
+  display: flex;
+  height: 100vh;
+}
+
+.left-box {
+  flex: 1;
+  background-image: url('../Assets/tickets.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  /* padding: 40px; */
+  position: relative;
+}
+
+.left-box .tuner-box {
+  position: absolute;
+  top: 200px;
+  left: 70px;
+}
+
+.left-box .tuner-box h1 {
+  color: #C4B4F8;
+  margin: 0px;
+  font-size: 80px;
+  margin-bottom: 8px;
+}
+
+.left-box .tuner-box p {
+  margin: 0px;
+  font-size: 36px;
+  color: #FFFF;
+  width: 69%;
+  text-align: left;
+}
+
+.left-box a {
+  position: absolute;
+  bottom: 90px;
+  left: 70px;
+  font-size: 25px;
+}
+
+.login-page .right-box {
+  flex: 1;
+  background-color: rgb(23, 26, 39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.right-box #error-box{
+  width: 500px;
+  height: 30px;
+  color: red;
+  background-color: rgb(237, 151, 151);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.login-page .signin-box {
+  text-align: center;
+  padding: 20px;
+  border: none;
+  border-radius: none;
+  background-color: rgb(23, 26, 39);
+
+
+}
+
+.login-page .sign {
+  font-size: 35px;
+  color: white;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.login-page #an {
+  color: white;
+  font-size: 27px;
+
+}
+
+.login-page .si {
+  opacity: 1;
+  font-size: 17px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.login-page input {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  background-color: rgb(23, 26, 39);
+  border-bottom: 1px solid #989898;
+  color: aliceblue;
+  font-size: 17px;
+
+}
+
+.login-page input+input {
+  margin-bottom: 50px;
+}
+
+.login-page .signin-box input::placeholder {
+  color: #D0DBE5;
+  font-size: 17px;
+
+}
+
+
+.login-page button {
+  width: 190px;
+  height: 40px;
+  background-color: rgb(160, 148, 204);
+  color: white;
+  border: none;
+  border-radius: 27px;
+  cursor: pointer;
+  margin-top: 30px;
+}
