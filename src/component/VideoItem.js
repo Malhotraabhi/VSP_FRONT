@@ -8,9 +8,9 @@ const VideoItem = ({item}) => {
     <div>
       
       <div id="Item-container">
-        <img id="thumbnail"src={`http://localhost:9000/Thumbnails/${item.Thumbnail}`} alt="thumbanail" />
+        <img id="thumbnail"src={`https://v-sharing.onrender.com/Thumbnails/${item.Thumbnail}`} alt="thumbanail" />
         <div id='play'><img  src={playButton}alt="playbutton" /></div>
-        {videoId || <div id='profile'><img src={`http://localhost:9000/Pictures/${item.PublisherProfilePic}`} alt="PublisherProfilePic" /></div>}
+        {videoId || <div id='profile'><img src={`https://v-sharing.onrender.com/Pictures/${item.PublisherProfilePic}`} alt="PublisherProfilePic" /></div>}
         <div id="title"><h3>{item.title}</h3></div>
         <div id="details">
             <span id="date">{item.date}</span>

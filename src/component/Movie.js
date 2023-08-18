@@ -6,7 +6,7 @@ function Movie({item}) {
   return (
     <div className="movie">
       <div className="banner-container">
-        <img src={`http://localhost:9000/Thumbnails/${item?.Thumbnail}`} alt="movie-banner" />
+        <img src={`https://v-sharing.onrender.com/Thumbnails/${item?.Thumbnail}`} alt="movie-banner" />
       </div>
       <div className="info">
         <h3>{item?.title}</h3>
@@ -16,7 +16,7 @@ function Movie({item}) {
           <span id="views">{item?.views} Views</span>
         </div>
         <div className='publisher-info'>
-          <div id="image-container"><img src={`http://localhost:9000/Pictures/${item?.PublisherProfilePic}`} alt="publisher" /></div>
+          <div id="image-container"><img src={`https://v-sharing.onrender.com/Pictures/${item?.PublisherProfilePic}`} alt="publisher" /></div>
           <h3>{item?.PublisherName}</h3>
         </div>
       </div>

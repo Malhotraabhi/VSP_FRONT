@@ -26,8 +26,8 @@ export function VideoDetails({ videos, deleteVideo }) {
           <img
             src={
               videoId
-                ? `http://localhost:9000/Thumbnails/${video?.Thumbnail}`
-                : `http://localhost:9000/Thumbnails/${videos[0]?.Thumbnail}`
+                ? `https://v-sharing.onrender.com/Thumbnails/${video?.Thumbnail}`
+                : `https://v-sharing.onrender.com/Thumbnails/${videos[0]?.Thumbnail}`
             }
             alt="Thumbnail"
           />
@@ -75,9 +75,9 @@ export function VideoDetails({ videos, deleteVideo }) {
             <button id="delete" onClick={() => deleteVideo(videoId)}>
               Delete
             </button>
-            <button id="save" onClick={() => navigate("/")}>
+            {/* <button id="save" onClick={() => navigate("/")}>
               Save
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
@@ -167,11 +167,11 @@ const Myvideos = () => {
         <div id="left-side">
           <div className="top">
             <span>My Videos</span>
-            <select>
+            {/* <select>
               <option value="Recent">Recent</option>
               <option value="Most Watched">Most Watched</option>
               <option value="Latest">Latest</option>
-            </select>
+            </select> */}
           </div>
           <div className="bottom">
             {myvideos.map((item) => (
